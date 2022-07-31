@@ -95,7 +95,7 @@ html{
 /* home section styling */
 .home{
     display: flex;
-    background: url("/out/static/images/Banner.jpg") no-repeat center;
+    background: url("images/Banner.jpg") no-repeat center;
     height: 100vh;
     color:#fff;
     min-height: 500px;
