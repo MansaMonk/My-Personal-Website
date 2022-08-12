@@ -1,4 +1,4 @@
-ErrorDocument 404 https://www.haile.tech/templates/error404.html
+ErrorDocument 404 https://www.haile.tech/error404
 Redirect 404 / https://haile.tech/templates/error404.html
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
