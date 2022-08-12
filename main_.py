@@ -9,7 +9,7 @@ app.config['SERVER_NAME'] = "https://www.haile.tech"
 # app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False #removes a possible warning (not tracking all mods to database)
 # app.permanent_session_lifetime = timedelta(minutes=5)
 
-#db = SQLAlchemy(app) #column = pieces of info, rows = individual items
+db = SQLAlchemy(app) #column = pieces of info, rows = individual items
 
 # class users(db.Model): #sql table
 #     _id = db.Column("id", db.Integer, primary_key=True) #every single row has to have a different id (to prevent errors)
