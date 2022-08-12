@@ -4,6 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 app.secret_key = "haile" #secret key (necessary for session usage)
+app.config['SERVER_NAME'] = "https://www.haile.tech" 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.sqlite3'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False #removes a possible warning (not tracking all mods to database)
 app.permanent_session_lifetime = timedelta(minutes=5)
