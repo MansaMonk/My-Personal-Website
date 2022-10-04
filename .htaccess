@@ -1,3 +1,5 @@
+DirectoryIndex index.html
+
 AllowOverride All
 ErrorDocument 404 "<H1>Page not found</H1>"
 RewriteEngine On
